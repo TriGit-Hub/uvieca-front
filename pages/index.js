@@ -51,8 +51,8 @@ const FoodDelivery = () => {
             </DrawerProvider>
           </Sticky>
           <Banner />
-          <AvailableRestaurants />
-          <PopularCategory />
+          {/* <AvailableRestaurants /> */}
+          {/* <PopularCategory /> */}
           <HowWorks />
           <ProductDelivery />
           <QualityFeatures />

@@ -331,7 +331,7 @@ export const AVAILABLE_RESTAURANTS_DATA = {
   ],
 };
 
-import bannerImage from '../../../common/assets/image/foodDelivery/banner-1.png';
+import bannerImage from '../../../common/assets/image/foodDelivery/banner-1.svg';
 import bannerBtn1 from '../../../common/assets/image/foodDelivery/banner-apple.svg';
 import bannerBtn2 from '../../../common/assets/image/foodDelivery/banner-google-play.svg';
 
