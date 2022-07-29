@@ -11,7 +11,7 @@ import { AVAILABLE_RESTAURANTS_DATA } from '../../../common/data/FoodDelivery';
 const AvailableRestaurants = () => {
   const { title, posts } = AVAILABLE_RESTAURANTS_DATA;
   return (
-    <AvailableRestaurantsWrapper id="restaurants">
+    <AvailableRestaurantsWrapper style={{marginBottom:"30px"}} id="restaurants">
       <Container>
         <Heading as="h2" content={title} />
         <Box className="postWrap">
