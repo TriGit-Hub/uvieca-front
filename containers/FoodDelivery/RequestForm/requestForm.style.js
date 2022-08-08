@@ -2,100 +2,61 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import BgImage from '../../../common/assets/image/foodDelivery/bulb.png';
 const RequestFormWrapper = styled.section`
-.contain {
-  position: relative;
-  transform: translate(-50%,-50%);
-
+.containerx {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 886px;
 }
+.container2 {
+  
+  display: flex;
+  margin-top: 30px;
+  justify-content: start;
+      align-content: center;
+      align-items: center;
+      flex-direction:column;
+      
+  }
+.p-float-label{
 
-form {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right:15px;
+  margin-left:15px
+}
+.form {
   background: $white;
   padding: 3em;
-  height: 320px;
+  // height: 550px;
+  display: flex;
   border-radius: 20px;
   border-left: 1px solid $white;
   border-top: 1px solid $white;
   backdrop-filter: blur(10px);
   box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
-  text-align: center;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  
-  
-  p {
-    font-weight: 500;
-    color: #fff;
-    opacity: 0.7;
-    font-size: 1.4rem;
-    margin-top: 0;
-    margin-bottom: 60px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+ 
+}
+
+
+.textsub{
+  max-width: 286px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .form  {
+    // background-color: lightblue;
+    flex-direction: column;
   }
-  
-  a {
-    text-decoration: none;
-    color: #ddd;
-    font-size: 12px;
-    
-    &:hover {
-      text-shadow: 2px 2px 6px #00000040;
-    }
-    
-    &:active {
-      text-shadow: none;
-    }
+  .textsub{
+    max-width: 100%;
   }
-  
-  input {
-    background: transparent;
-    width: 200px;
-    padding: 1em;
-    margin-bottom: 2em;
-    margin-right: 2em;
-    border: none;
-    border-left: 1px solid $white;
-    border-top: 1px solid $white;
-    border-radius: 5000px;
-    backdrop-filter: blur(5px);
-    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
-    color: #fff;
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    transition: all 0.2s ease-in-out;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-    
-    &:hover {
-      background: rgba(255,255,255,0.1);
-      box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
-    }
-    
-    &[type="email"],
-    &[type="password"] {
-      
-      &:focus {
-        background: rgba(255,255,255,0.1);
-        box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
-      }
-    }
-    
-    &[type="button"] {
-      margin-top: 10px;
-      width: 150px;
-      font-size: 1rem;
-      
-      &:hover {
-        cursor: pointer;
-      }
-      
-      &:active {
-        background: rgba(255,255,255,0.2);
-      }
-    }
-  }
-  
-  &:hover {
-    margin: 4px;
-  }
+}
+@media only screen and (max-width: 992px) {
+
 }
 
 ::placeholder {
