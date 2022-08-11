@@ -189,12 +189,12 @@ const AvailableRestaurants = () => {
                   
 
                 <Box className="text-center">
-                    <Link href="#">
-                        <a className="MoreButton">
+                    
+                        <a className="MoreButton" onClick={() => upload()}> 
                     
                             Enviar solicitud <Icon size={14} icon={arrowRight} />
                         </a>
-                    </Link>
+                  
                 </Box>
             </Container>
         </RequestFormWrapper>
