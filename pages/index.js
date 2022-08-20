@@ -13,6 +13,8 @@ import {
 import Navbar from '../containers/FoodDelivery/Navbar';
 import Testimonials from '../containers/FoodDelivery/Testimonials';
 import Banner from '../containers/FoodDelivery/Banner';
+// import Banner from '../containers/WebApp/Banner';
+import CustomerSupport from '../containers/WebApp/CustomerSupport';
 import AvailableRestaurants from '../containers/FoodDelivery/AvailableRestaurants';
 import RequestForm from '../containers/FoodDelivery/RequestForm'
 import PopularCategory from '../containers/FoodDelivery/PopularCategory';
@@ -52,7 +54,8 @@ const FoodDelivery = () => {
                         </DrawerProvider>
                     </Sticky>
                     <Banner/>
-                    <AvailableRestaurants/>
+                    <CustomerSupport/>
+                           {/* <AvailableRestaurants/>
                     <RequestForm/>
                     <PopularCategory/>
                     <HowWorks/>
@@ -62,7 +65,7 @@ const FoodDelivery = () => {
                     <Testimonials/>
                     <DownloadApp/>
                     <Gallery/>
-                    <CallToAction/>
+                    <CallToAction/> */}
                     <Footer/>
                 </ContentWrapper>
             </Fragment>

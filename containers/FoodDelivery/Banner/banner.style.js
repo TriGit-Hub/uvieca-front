@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-
+import BannerBg from '../../../common/assets/image/webApp/Vector3.png';
 const BannerWrapper = styled.section`
 #maletin{   animation: bounceIn 10s infinite alternate;
 }
@@ -408,7 +408,10 @@ const BannerWrapper = styled.section`
 
 
 
-  background-color: #fff2d9;
+background-image: url(${BannerBg?.src});
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom left;
   padding-top: 120px;
   padding-bottom: 100px;
   @media (max-width: 1550px) {
@@ -500,7 +503,7 @@ const BannerWrapper = styled.section`
   }
   .image {
     flex: 0 0 54%;
-    background-color: #fff2d9;
+    // background-color: #fff2d9;
     @media (max-width: 768px) {
       flex: 0 0 100%;
       display: none;

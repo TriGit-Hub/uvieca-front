@@ -1,19 +1,19 @@
-import React, { useContext } from 'react';
+import LogoImageStick from 'common/assets/image/webApp/header-logo-stick.svg';
+import LogoImage from 'common/assets/image/webApp/header-logo.svg';
+import Box from 'common/components/Box';
+import Button from 'common/components/Button';
+import Drawer from 'common/components/Drawer';
+import HamburgMenu from 'common/components/HamburgMenu';
+import NavbarWrapper from 'common/components/Navbar';
+import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
+import Container from 'common/components/UI/Container';
+import Logo from 'common/components/UIElements/Logo';
+import { DrawerContext } from 'common/contexts/DrawerContext';
+import { MENU_ITEMS } from 'common/data/WebApp';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import NavbarWrapper from '../../../common/components/Navbar';
-import Drawer from '../../../common/components/Drawer';
-import Button from '../../../common/components/Button';
-import Logo from '../../../common/components/UIElements/Logo';
-import Box from '../../../common/components/Box';
-import HamburgMenu from '../../../common/components/HamburgMenu';
-import Container from '../../../common/components/UI/Container';
-import { DrawerContext } from '../../../common/contexts/DrawerContext';
+import React, { useContext } from 'react';
 
-import { MENU_ITEMS } from '../../../common/data/FoodDelivery';
-import ScrollSpyMenu from '../../../common/components/ScrollSpyMenu';
-
-import LogoImage from '../../../common/assets/image/foodDelivery/logo-uvieca.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -35,6 +35,13 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             title="Agency"
             logoStyle={logoStyle}
             className="main-logo"
+          />
+          <Logo
+            href="#"
+            logoSrc={LogoImageStick}
+            title="Agency"
+            logoStyle={logoStyle}
+            className="sticky-logo"
           />
           <Box {...menuWrapper} className="mainMenuWrapper">
             <ScrollSpyMenu
@@ -83,7 +90,7 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   navbarStyle: {
-    className: 'food_delivery_navbar',
+    className: 'sassminimal_navbar',
     minHeight: '70px',
     display: 'block',
   },
