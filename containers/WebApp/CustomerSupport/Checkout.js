@@ -29,7 +29,7 @@ function Copyright() {
   );
 }
 
-const steps = ['Shipping address', 'Payment details', 'Review your order'];
+const steps = ['Datos Personales', 'Copia de Documentos', 'Informacion de facturacion'];
 
 function getStepContent(step) {
   switch (step) {
@@ -69,16 +69,16 @@ export default function Checkout() {
           borderBottom: (t) => `1px solid ${t.palette.divider}`,
         }}
       >
-        <Toolbar>
+        {/* <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Company name
+            UVIECA Creación de Solicitud
           </Typography>
-        </Toolbar>
+        </Toolbar> */}
       </AppBar>
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
           <Typography component="h1" variant="h4" align="center">
-            Checkout
+            Crear una Solicitud
           </Typography>
           <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
             {steps.map((label) => (
@@ -105,7 +105,7 @@ export default function Checkout() {
                 <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                   {activeStep !== 0 && (
                     <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
-                      Back
+                     Regresar
                     </Button>
                   )}
 
@@ -114,14 +114,14 @@ export default function Checkout() {
                     onClick={handleNext}
                     sx={{ mt: 3, ml: 1 }}
                   >
-                    {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                    {activeStep === steps.length - 1 ? 'Enviar solicitud' : 'Siguiente'}
                   </Button>
                 </Box>
               </React.Fragment>
             )}
           </React.Fragment>
         </Paper>
-        <Copyright />
+        {/* <Copyright /> */}
       </Container>
     </ThemeProvider>
   );

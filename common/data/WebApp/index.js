@@ -49,7 +49,7 @@ import bubbleImage5 from '../../../common/assets/image/webApp/call-bubble-5.svg'
 import bubbleImage6 from '../../../common/assets/image/webApp/call-bubble-6.svg';
 import bubbleImage7 from '../../../common/assets/image/webApp/call-bubble-7.svg';
 import customerSupportImageShape from '../../../common/assets/image/webApp/customer-support-shape.svg';
-import customerSupportImage from '../../../common/assets/image/webApp/customer-support.png';
+import customerSupportImage from '../../../common/assets/image/webApp/foquito.jpg';
 import feature1 from '../../../common/assets/image/webApp/feature-1.png';
 import feature2 from '../../../common/assets/image/webApp/feature-2.png';
 import feature3 from '../../../common/assets/image/webApp/feature-3.png';
@@ -383,7 +383,7 @@ export const YEARLY_PRICING_DATA = [
 export const CUSTOMER_SUPPORT_DATA = {
   image: customerSupportImage,
   shapeImage: customerSupportImageShape,
-  title: 'Meet our Superheros who works dedicatedly with customer support',
+  title: 'Completa este formulario para crear una solicitud de servicios nosotros te contactaremos',
   options: [
     {
       label: 'Gift-giving social network – emotional vs transactional',

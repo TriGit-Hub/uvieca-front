@@ -3,6 +3,16 @@ import bgImage from '../../../common/assets/image/webApp/customer-support-bg.png
 import styled from 'styled-components';
 
 const CustomerSupportArea = styled.section`
+.css-ascpo7-MuiStepLabel-root{
+  // flex-direction: column;
+  @media (max-width: 480px){
+  flex-direction: column;
+}
+
+}
+
+
+
   // background-image: url(${bgImage?.src});
   background-size: cover;
   background-position: top right;

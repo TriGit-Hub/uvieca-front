@@ -16,7 +16,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cardName"
-            label="Name on card"
+            label="Razon social"
             fullWidth
             autoComplete="cc-name"
             variant="standard"
@@ -26,7 +26,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cardNumber"
-            label="Card number"
+            label="Actividad Economica"
             fullWidth
             autoComplete="cc-number"
             variant="standard"
@@ -36,13 +36,13 @@ export default function PaymentForm() {
           <TextField
             required
             id="expDate"
-            label="Expiry date"
+            label="Constitucion Empresa"
             fullWidth
             autoComplete="cc-exp"
             variant="standard"
           />
         </Grid>
-        <Grid item xs={12} md={6}>
+        {/* <Grid item xs={12} md={6}>
           <TextField
             required
             id="cvv"
@@ -52,7 +52,7 @@ export default function PaymentForm() {
             autoComplete="cc-csc"
             variant="standard"
           />
-        </Grid>
+        </Grid> */}
         <Grid item xs={12}>
           <FormControlLabel
             control={<Checkbox color="secondary" name="saveCard" value="yes" />}

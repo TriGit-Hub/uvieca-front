@@ -17,6 +17,11 @@ import { androidArrowForward } from 'react-icons-kit/ionicons/androidArrowForwar
 import { androidDone } from 'react-icons-kit/ionicons/androidDone';
 import CustomerSupportArea, { Row } from './customerSupport.style';
 import AddressForm from './AddressForm';
+import Checkout from './Checkout'
+import PaymentForm from './PaymentForm'
+import Review from './Review'
+import { flex } from 'styled-system';
+import foco from '../../../common/assets/image/webApp/foquito.jpg';
 const CustomerSupport = () => {
   const { image, shapeImage, title, options, button } = CUSTOMER_SUPPORT_DATA;
   const [value, setValue] = React.useState('1');
@@ -31,8 +36,11 @@ const CustomerSupport = () => {
           <Heading as="h2" content={title} />
           
         </Box>
-        
-        <TabContext value={value}>
+     
+        <Checkout/>
+       
+          
+        {/* <TabContext value={value}>
   <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
     <TabList onChange={handleChange} aria-label="lab API tabs example">
       <Tab label="Item One" value="1" />
@@ -41,9 +49,9 @@ const CustomerSupport = () => {
     </TabList>
   </Box>
   <TabPanel value="1"><AddressForm/></TabPanel>
-  <TabPanel value="2">Item Two</TabPanel>
-  <TabPanel value="3">Item Three</TabPanel>
-</TabContext>
+  <TabPanel value="2"><PaymentForm/></TabPanel>
+  <TabPanel value="3"><Checkout/><Review/></TabPanel>
+</TabContext> */}
         {/* <Row>
           <Box className="image">
             <Image src={image} alt="customer support image" />
