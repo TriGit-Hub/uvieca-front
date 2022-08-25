@@ -32,7 +32,7 @@ export default function PaymentForm() {
             variant="standard"
           />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} >
           <TextField
             required
             id="expDate"
@@ -42,6 +42,40 @@ export default function PaymentForm() {
             variant="standard"
           />
         </Grid>
+        <Grid  item xs={12} >
+        <h4>Foto NIT</h4>
+                  <input
+                    type="file"
+                    name="myImage"
+                    onChange={(event) => {
+                      console.log(event.target.files[0]);
+                      setData({ ...data, file1: event.target.files[0] });
+                    }}
+                  />
+        </Grid>
+        <Grid  item xs={12} >
+        <h4>Foto Constitucion Empresa</h4>
+                  <input
+                    type="file"
+                    name="myImage"
+                    onChange={(event) => {
+                      console.log(event.target.files[0]);
+                      setData({ ...data, file2: event.target.files[0] });
+                    }}
+                  />
+        </Grid>
+        <Grid  item xs={12} >
+        <h4>Foto NCR</h4>
+                  <input
+                    type="file"
+                    name="myImage"
+                    onChange={(event) => {
+                      console.log(event.target.files[0]);
+                      setData({ ...data, file3: event.target.files[0] });
+                    }}
+                  />
+        </Grid>
+     
         {/* <Grid item xs={12} md={6}>
           <TextField
             required

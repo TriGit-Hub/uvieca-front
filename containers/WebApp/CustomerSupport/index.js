@@ -22,10 +22,42 @@ import PaymentForm from './PaymentForm'
 import Review from './Review'
 import { flex } from 'styled-system';
 import foco from '../../../common/assets/image/webApp/foquito.jpg';
+import ClientService from "../../../services/client.services";
 const CustomerSupport = () => {
   const { image, shapeImage, title, options, button } = CUSTOMER_SUPPORT_DATA;
   const [value, setValue] = React.useState('1');
+  const [tabIndex, setTabIndex] = useState("0");
+  const [data, setData] = useState({
+    nombre: "",
+    nit: "",
+    ncr: "",
+    telefono: "",
+    email: "",
+    razon_social: "",
+    actividad_eco: "",
+    constitucion_emp: "",
+    file1: null,
+    file2: null,
+    file3: null,
+  });
 
+  const uploadClient = async () => {
+
+    const client = {
+      act_economica: data.actividad_eco,
+      email: data.email,
+      nit: data.nit,
+      constitucion_empresa: data.constitucion_emp,
+      nrc: data.ncr,
+      razon_social: data.razon_social,
+      telefono: data.telefono,
+      nombre: data.nombre,
+      files: [data.file1, data.file2, data.file3],
+    };
+
+    const result = await ClientService.guardar(client);
+
+  };
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
