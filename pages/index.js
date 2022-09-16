@@ -21,11 +21,13 @@ import PopularCategory from '../containers/FoodDelivery/PopularCategory';
 import HowWorks from '../containers/FoodDelivery/HowWorks';
 import ProductDelivery from '../containers/FoodDelivery/ProductDelivery';
 import QualityFeatures from '../containers/FoodDelivery/QualityFeatures';
-import Clients from '../containers/FoodDelivery/Clients';
+// import Clients from '../containers/FoodDelivery/Clients';
 import DownloadApp from '../containers/FoodDelivery/DownloadApp';
 import Gallery from '../containers/FoodDelivery/Gallery';
 import CallToAction from '../containers/FoodDelivery/CallToAction';
+import Clients from '../containers/WebApp/Clients'
 import Footer from '../containers/FoodDelivery/Footer';
+import Dashboard from  '../containers/WebApp/SecureDashboard'
 
 const FoodDelivery = () => {
     return (
@@ -54,9 +56,12 @@ const FoodDelivery = () => {
                         </DrawerProvider>
                     </Sticky>
                     <Banner/>
+                  
                     <CustomerSupport/>
+                    {/* <ProductDelivery/> */}
+                    <Clients/>
                            {/* <AvailableRestaurants/>
-                    <RequestForm/>
+                    // <RequestForm/>
                     <PopularCategory/>
                     <HowWorks/>
                     <ProductDelivery/>

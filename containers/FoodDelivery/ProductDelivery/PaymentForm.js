@@ -106,7 +106,7 @@ export default function PaymentForm() {
         <Grid item xs={12}>
           <FormControlLabel
             control={<Checkbox color="secondary" name="saveCard" value="yes" />}
-            label="Remember credit card details for next time"
+            label="Marcar casilla si usted se hara cargo de la informacion de facturacion"
           />
         </Grid>
       </Grid>

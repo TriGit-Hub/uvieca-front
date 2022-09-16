@@ -7,6 +7,7 @@ import NextImage from '../../../common/components/NextImage';
 import Box from '../../../common/components/Box';
 import ProductDeliveryWrapper from './productDelivery.style';
 import { DELIVERY_PRODUCT_DATA } from '../../../common/data/FoodDelivery';
+import Checkout from './Checkout'
 const ProductDelivery = () => {
   const { sectionContent, posts } = DELIVERY_PRODUCT_DATA;
   const { title, text, image } = sectionContent;
@@ -16,10 +17,12 @@ const ProductDelivery = () => {
         <Box className="image">
           <Fade left>
             <NextImage src={image} alt={title} />
+            
+             {/* <Checkout/> */}
           </Fade>
         </Box>
         <Box className="content">
-          <Heading as="h2" content={title} />
+          {/* <Heading as="h2" content={title} />
           <Text as="p" content={text} />
           <Box className="postWrap">
             {posts.map(({ title, text }, index) => (
@@ -30,7 +33,8 @@ const ProductDelivery = () => {
                 </Box>
               </Box>
             ))}
-          </Box>
+          </Box> */}
+          <Checkout/>
         </Box>
       </Container>
     </ProductDeliveryWrapper>

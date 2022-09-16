@@ -131,7 +131,7 @@ export const CLIENTS_DATA = {
   ],
 };
 
-import deliveryProductImage from '../../../common/assets/image/foodDelivery/deliver-products.png';
+import deliveryProductImage from '../../../common/assets/image/foodDelivery/electricistas.png';
 export const DELIVERY_PRODUCT_DATA = {
   sectionContent: {
     title: 'We deliver our products as fast as superman can do',

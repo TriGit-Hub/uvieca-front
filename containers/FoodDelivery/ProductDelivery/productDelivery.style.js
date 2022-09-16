@@ -6,6 +6,38 @@ const ProductDeliveryWrapper = styled.section`
   @media (max-width: 1550px) {
     padding-bottom: 100px;
   }
+  .css-ascpo7-MuiStepLabel-root{
+    // flex-direction: column;
+    @media (max-width: 480px){
+    flex-direction: column;
+  }
+  
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    display:none
+  }
+  .custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
   @media (max-width: 768px) {
     padding-bottom: 80px;
   }
@@ -40,7 +72,7 @@ const ProductDeliveryWrapper = styled.section`
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 80%;
+        // max-width: 80%;
       }
     }
   }
@@ -58,12 +90,12 @@ const ProductDeliveryWrapper = styled.section`
       flex: 0 0 100%;
       padding-left: 0;
       padding-top: 70px;
-      max-width: 80%;
+      // max-width: 80%;
       margin-left: auto;
       margin-right: auto;
     }
     @media (max-width: 480px) {
-      max-width: 90%;
+      // max-width: 90%;
     }
     h2 {
       margin: 0;

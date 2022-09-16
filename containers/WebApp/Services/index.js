@@ -1,8 +1,8 @@
-import Box from 'common/components/Box';
-import Heading from 'common/components/Heading';
-import Text from 'common/components/Text';
-import Container from 'common/components/UI/Container';
-import { SERVICE_DATA } from 'common/data/WebApp';
+import Box from '../../../common/components/Box';
+import Heading from '../../../common/components/Heading';
+import Text from '../../../common/components/Text';
+import Container from '../../../common/components/UI/Container';
+import { SERVICE_DATA } from '../../../common/data/WebApp';
 import Image from 'next/image';
 import React from 'react';
 import ServicesArea, { Col, Row } from './services.style';
