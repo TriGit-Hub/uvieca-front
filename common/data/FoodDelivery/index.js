@@ -83,8 +83,8 @@ import downloadAppBtn2 from '../../../common/assets/image/foodDelivery/play-stor
 export const DOWNLOAD_APP_DATA = {
   sectionImage: downloadAppImage,
   title:
-    'Connecting our user with iOS  & Android apps. Download from iTune & Play store',
-  text: 'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. We’re driven beyond just finishing the projects. We want to find solutions using our website & apps.',
+    'Realiza tu solicitud desde tu dispositivo mobile',
+  text: 'Al priorizar la navegación móvil, Google ha puesto bajo presión a operadores web de todo el mundo. Aunque conceptos como Mobile First o diseño web móvil responsivo no son nuevos a los oídos de los operadores de páginas web, “Mobilegeddon” marcó un nuevo comienzo en la era de la optimización móvil.',
   buttons: [
     {
       icon: downloadAppBtn1,
@@ -363,25 +363,21 @@ export const MENU_ITEMS = [
     offset: '70',
   },
   {
+    label: 'Crear Solicitud',
+    path: '#solicitud',
+    offset: '70',
+  },
+  {
+    label: 'Información',
+    path: '#service_section',
+    offset: '70',
+  },
+  {
     label: 'Servicios',
-    path: '#restaurants',
-    offset: '70',
-  },
-  {
-    label: 'Features',
-    path: '#features',
-    offset: '70',
-  },
-  {
-    label: 'Testimonials',
     path: '#testimonials',
     offset: '70',
   },
-  {
-    label: 'Download',
-    path: '#download',
-    offset: '70',
-  },
+
 ];
 
 import testimonialBlockImage from '../../../common/assets/image/foodDelivery/testimonials-block-image.png';

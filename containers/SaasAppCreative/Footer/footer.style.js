@@ -16,7 +16,7 @@ export const Section = styled.footer`
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 0.8fr 1.2fr 1fr;
   border-top: 1px solid ${rgba('#000', 0.1)};
   padding-top: 70px;
   padding-bottom: 70px;
@@ -64,7 +64,7 @@ export const AboutUs = styled.div`
     color: ${rgba('#09131F', 0.7)};
     font-family: Inter, sans-serif;
     font-size: 15px;
-    line-height: 2.33;
+    // line-height: 2.33;
     letter-spacing: -0.002em;
     margin-bottom: 0;
   }

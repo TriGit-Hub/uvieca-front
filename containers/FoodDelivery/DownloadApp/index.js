@@ -18,7 +18,7 @@ const DownloadApp = () => {
         <Box className="content">
           <Heading as="h2" content={title} />
           <Text as="p" content={text} />
-          <Box className="buttonWrap">
+          {/* <Box className="buttonWrap">
             {buttons.map(({ icon, text, title, link }, index) => (
               <Link href={link} key={`download-app-button-${index}`}>
                 <a className="downloadAppBtn">
@@ -30,7 +30,7 @@ const DownloadApp = () => {
                 </a>
               </Link>
             ))}
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </DownloadAppWrapper>
