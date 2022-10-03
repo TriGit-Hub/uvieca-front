@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 const ServicesArea = styled.section`
-  background-color: #f7fafa;
+background: rgb(91,152,201);
+background: -moz-linear-gradient(146deg, rgba(91,152,201,1) 0%, rgba(144,194,112,1) 100%);
+background: -webkit-linear-gradient(146deg, rgba(91,152,201,1) 0%, rgba(144,194,112,1) 100%);
+background: linear-gradient(146deg, rgba(91,152,201,1) 0%, rgba(144,194,112,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b98c9",endColorstr="#90c270",GradientType=1);
   @media (max-width: 768px) {
     padding-top: 30px;
   }
@@ -10,9 +14,15 @@ const ServicesArea = styled.section`
   .servicePost {
     display: flex;
     margin-top: 70px;
+    margin-bottom: 70px;
+    background: #273F6E;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 20px;
     @media (max-width: 768px) {
       margin-top: 40px;
     }
+    
     > img {
       flex-shrink: 0;
       width: 70px;
@@ -25,7 +35,8 @@ const ServicesArea = styled.section`
         font-weight: bold;
         font-size: 18px;
         line-height: 1.27;
-        color: #0f2137;
+        // color: #0f2137;
+        color: #72B842;
         margin-bottom: 10px;
         @media (max-width: 425px) {
           font-size: 16px;
@@ -35,16 +46,22 @@ const ServicesArea = styled.section`
         font-weight: normal;
         font-size: 15px;
         line-height: 1.87;
-        color: #343d48;
+        color: #fff;
         margin: 0;
       }
     }
     &:hover {
+      background: #72B842;
+      h3{
+        color: #273F6E;
+      }
       .service-icon {
         animation: var(--shakeAnim);
       }
     }
   }
+
+  
   .service-icon {
     width: var(--width);
     flex: 0 0 var(--width)

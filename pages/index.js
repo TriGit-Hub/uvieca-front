@@ -26,7 +26,10 @@ import DownloadApp from '../containers/FoodDelivery/DownloadApp';
 import Gallery from '../containers/FoodDelivery/Gallery';
 import CallToAction from '../containers/FoodDelivery/CallToAction';
 import Clients from '../containers/WebApp/Clients'
+import Video from '../containers/WebApp/Video'
+import Servicios2 from '../containers/WebApp/Services'
 import Footer from '../containers/FoodDelivery/Footer';
+import Footer2 from '../containers/SaasAppCreative/Footer';
 import Dashboard from  '../containers/WebApp/SecureDashboard'
 
 const FoodDelivery = () => {
@@ -59,7 +62,10 @@ const FoodDelivery = () => {
                   
                     <CustomerSupport/>
                     {/* <ProductDelivery/> */}
-                    <Clients/>
+                    {/* <Video/> */}
+                    <Servicios2/>
+                    <RequestForm/>
+                    {/* <Clients/> */}
                            {/* <AvailableRestaurants/>
                     // <RequestForm/>
                     <PopularCategory/>
@@ -71,7 +77,7 @@ const FoodDelivery = () => {
                     <DownloadApp/>
                     <Gallery/>
                     <CallToAction/> */}
-                    <Footer/>
+                    <Footer2/>
                 </ContentWrapper>
             </Fragment>
         </ThemeProvider>

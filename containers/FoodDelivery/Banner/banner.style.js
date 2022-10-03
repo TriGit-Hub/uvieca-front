@@ -615,12 +615,46 @@ background-position: bottom left;
   }
   .buttonWrap {
     display: flex;
-    flex-wrap: wrap;
+    // flex-direction: row;
     margin-top: 25px;
     @media (max-width: 768px) {
-      justify-content: center;
+      justify-content: center !important;
     }
+
   }
+
+ 
+  .troll{
+    margin-top: 70px !important;
+    @media (max-width: 768px) {
+      justify-content: center !important;
+    }
+
+  }
+
+  .boton{
+    font-size: 1.275rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: none !important;
+  }
+
+  .b1{
+    margin-right:20px;
+    color:#fff;
+    // border-color:#273F6E;
+    background:#273F6E;
+  }
+
+  .b2{
+    color:#273F6E;
+    font-weight: 500;
+    border-color:#273F6E;
+    // margin-top:20px
+  }
+
   .bannerAppBtn {
     background-color: #fff2d9;
     border: 1px solid #081c27;
@@ -685,6 +719,8 @@ background-position: bottom left;
       }
     }
   }
+
+ 
 `;
 
 export default BannerWrapper;

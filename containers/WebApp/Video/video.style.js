@@ -1,5 +1,5 @@
 import { themeGet } from '@styled-system/theme-get';
-import bgImage from 'common/assets/image/webApp/video-thumb.png';
+import bgImage from '../../../common/assets/image/webApp/video-thumb.png';
 import styled from 'styled-components';
 
 const VideoArea = styled.section`

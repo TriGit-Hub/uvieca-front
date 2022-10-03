@@ -124,27 +124,27 @@ export const VIDEO_DATA = {
 export const SERVICE_DATA = [
   {
     icon: service1,
-    title: 'Analysis & Development',
+    title: 'Política de calidad',
     text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
-  },
-  {
-    icon: service2,
-    title: 'User experience & Performance',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
-  },
-  {
-    icon: service3,
-    title: 'Clean & Editable Environment',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+      'Ofrecer un servicio de inspección de instalaciones eléctricas con calidad, seguridad, eficiencia y eficacia.',
   },
   {
     icon: service4,
-    title: 'Optimized & User Friendly',
+    title: 'Finalidad de servicio',
     text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+      'Garantizar Instalaciones Eléctricas Seguras. Reduciendo el riesgo de daños a propiedades o a nuestros seres queridos.',
+  },
+  {
+    icon: service3,
+    title: 'Principios',
+    text:
+      'Independencia, Imparcialidad y Confidencialidad. Nos comprometemos adar un servicio técnicamente competente basado en normas nacionales e internacionales.',
+  },
+  {
+    icon: service2,
+    title: 'Objetivos de calidad',
+    text:
+      'Brindar servicios de revisión de planos e inspección de instalaciones eléctricas confiables, verificando que se cumplan requisitos nacionales e internacionales relacionados con instalaciones eléctricas.',
   },
 ];
 
