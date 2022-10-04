@@ -25,7 +25,7 @@ import post1 from '../../../common/assets/image/saasAppCreative/blog1.png';
 import post2 from '../../../common/assets/image/saasAppCreative/blog2.png';
 import post3 from '../../../common/assets/image/saasAppCreative/blog3.png';
 // footer
-import logo from '../../../common/assets/image/saasAppCreative/logo.svg';
+import logo from '../../../common/assets/image/foodDelivery/logo-uvieca.png';
 
 export const menu_items = [
   {
@@ -184,7 +184,7 @@ export const posts = [
 export const footer = {
   about: {
     logo: logo,
-    text: `We run Advanced Search reports on the criteria you care about to see how work is progressing and where to focus.`,
+    text: `Somos un Organismo de Inspección Acreditado para la Inspección de Instalaciones Eléctricas y la Revisión de Planos. Somos una empresa comprometidos con la Calidad y estamos convencidos que una instalación eléctrica en buen estado es el mejor inicio para un desarrollo exitoso y sin riesgos.`,
   },
   widgets: [
     {
@@ -220,72 +220,68 @@ export const footer = {
     },
     {
       id: 3,
-      title: 'Our Information',
+      title: 'Servicios',
       list: [
         {
           id: 1,
-          title: 'Return Policy ',
+          title: 'Inspección de Instalaciones Eléctricas',
           link: '#',
         },
         {
           id: 2,
-          title: 'Privacy Policy',
+          title: 'Revisión de Planos de Diseño',
           link: '#',
         },
         {
           id: 3,
-          title: 'Terms & Conditions',
+          title: 'Revisión de Planos como Construido',
           link: '#',
         },
         {
           id: 4,
-          title: 'Site Map',
-          link: '#',
-        },
-        {
-          id: 5,
-          title: 'Store Hours',
+          title: 'Inspección de Instalaciones Fotovoltaicas',
           link: '#',
         },
       ],
     },
-    {
-      id: 4,
-      title: 'My Account',
-      list: [
-        {
-          id: 1,
-          title: 'Press inquiries',
-          link: '#',
-        },
-        {
-          id: 2,
-          title: 'Social media ',
-          link: '#',
-        },
-        {
-          id: 3,
-          title: 'directories',
-          link: '#',
-        },
-        {
-          id: 4,
-          title: 'Images & B-roll',
-          link: '#',
-        },
-        {
-          id: 5,
-          title: 'Permissions',
-          link: '#',
-        },
-      ],
-    },
+    // {
+
+    //   id: 4,
+    //   title: 'My Account',
+    //   list: [
+    //     {
+    //       id: 1,
+    //       title: 'Press inquiries',
+    //       link: '#',
+    //     },
+    //     {
+    //       id: 2,
+    //       title: 'Social media ',
+    //       link: '#',
+    //     },
+    //     {
+    //       id: 3,
+    //       title: 'directories',
+    //       link: '#',
+    //     },
+    //     {
+    //       id: 4,
+    //       title: 'Images & B-roll',
+    //       link: '#',
+    //     },
+    //     {
+    //       id: 5,
+    //       title: 'Permissions',
+    //       link: '#',
+    //     },
+    //   ],
+    // },
   ],
   contactInfo: {
-    title: 'Contact info',
-    address: `Mohakhali DOHS, Amsterdam, Netherlands`,
-    phone: `+31 62 19 22 705`,
-    openingTime: `7 Days - 8am - 10pm`,
-    email: `info@redqteam.com`,
+    title: 'Contactanos',
+    address: `Casa #3, 3ra Ave. Sur, 4-7, Residencial Bariloche, Santa Tecla`,
+    phone: `+503 7886 6403`,
+    openingTime: `7 Dias - 8am - 10pm`,
+    email: `erickcastro.oia@uvieca.com`,
   },
 };

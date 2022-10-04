@@ -64,6 +64,9 @@ const FoodDelivery = () => {
                     {/* <ProductDelivery/> */}
                     {/* <Video/> */}
                     <Servicios2/>
+             
+                    <DownloadApp/>
+        
                     {/* <RequestForm/> */}
                     {/* <Clients/> */}
                            {/* <AvailableRestaurants/>

@@ -62,7 +62,7 @@ const CustomerSupport = () => {
     setValue(newValue);
   };
   return (
-    <CustomerSupportArea>
+    <CustomerSupportArea id="solicitud">
       <Container>
         <Box className="blockTitle">
           <Heading as="h2" content={title} />
