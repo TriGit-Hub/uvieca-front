@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Projecto Front de UVIECA heho en next.js falta optimizacion
